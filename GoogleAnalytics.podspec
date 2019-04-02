@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.swift_version = "4.0"
   s.source       = { :git => "https://github.com/eovendo/GoogleAnalytics-Framework.git", :tag => "#{s.version}", :submodules => true }
-  s.source_files  = "Google Analytics"
+  s.source_files  = "Google Analytics", "Google Analytics/External"
 end
